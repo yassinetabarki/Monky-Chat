@@ -1,0 +1,190 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="a39023f3-22f4-4d8b-b70a-a1864ad0d4ab" name="Default Changelist" comment="" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ComposerSettings" doNotAsk="true" synchronizationState="SYNCHRONIZE">
+    <pharConfigPath>$PROJECT_DIR$/composer.json</pharConfigPath>
+    <execution>
+      <executable />
+    </execution>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="CSS File" />
+        <option value="twig" />
+        <option value="JavaScript File" />
+      </list>
+    </option>
+  </component>
+  <component name="JsbtTreeLayoutManager">
+    <layout place="tools.popupGrunt">
+      <scroll-view-position x="0" y="0" />
+    </layout>
+  </component>
+  <component name="PhpWorkspaceProjectConfiguration">
+    <include_path>
+      <path value="$PROJECT_DIR$/vendor/symfony/polyfill-intl-icu" />
+      <path value="$PROJECT_DIR$/vendor/symfony/phpunit-bridge" />
+      <path value="$PROJECT_DIR$/vendor/symfony/swiftmailer-bundle" />
+      <path value="$PROJECT_DIR$/vendor/symfony/polyfill-util" />
+      <path value="$PROJECT_DIR$/vendor/doctrine/instantiator" />
+      <path value="$PROJECT_DIR$/vendor/doctrine/collections" />
+      <path value="$PROJECT_DIR$/vendor/doctrine/common" />
+      <path value="$PROJECT_DIR$/vendor/doctrine/orm" />
+      <path value="$PROJECT_DIR$/vendor/doctrine/lexer" />
+      <path value="$PROJECT_DIR$/vendor/paragonie/random_compat" />
+      <path value="$PROJECT_DIR$/vendor/doctrine/annotations" />
+      <path value="$PROJECT_DIR$/vendor/monolog/monolog" />
+      <path value="$PROJECT_DIR$/vendor/doctrine/inflector" />
+      <path value="$PROJECT_DIR$/vendor/doctrine/dbal" />
+      <path value="$PROJECT_DIR$/vendor/doctrine/doctrine-cache-bundle" />
+      <path value="$PROJECT_DIR$/vendor/doctrine/cache" />
+      <path value="$PROJECT_DIR$/vendor/composer" />
+      <path value="$PROJECT_DIR$/vendor/doctrine/doctrine-bundle" />
+      <path value="$PROJECT_DIR$/vendor/jdorn/sql-formatter" />
+      <path value="$PROJECT_DIR$/vendor/sensiolabs/security-checker" />
+      <path value="$PROJECT_DIR$/vendor/fig/link-util" />
+      <path value="$PROJECT_DIR$/vendor/sensio/framework-extra-bundle" />
+      <path value="$PROJECT_DIR$/vendor/incenteev/composer-parameter-handler" />
+      <path value="$PROJECT_DIR$/vendor/sensio/generator-bundle" />
+      <path value="$PROJECT_DIR$/vendor/twig/twig" />
+      <path value="$PROJECT_DIR$/vendor/sensio/distribution-bundle" />
+      <path value="$PROJECT_DIR$/vendor/psr/link" />
+      <path value="$PROJECT_DIR$/vendor/psr/simple-cache" />
+      <path value="$PROJECT_DIR$/vendor/psr/container" />
+      <path value="$PROJECT_DIR$/vendor/psr/cache" />
+      <path value="$PROJECT_DIR$/vendor/psr/log" />
+      <path value="$PROJECT_DIR$/vendor/symfony/monolog-bundle" />
+      <path value="$PROJECT_DIR$/vendor/symfony/polyfill-php70" />
+      <path value="$PROJECT_DIR$/vendor/symfony/polyfill-mbstring" />
+      <path value="$PROJECT_DIR$/vendor/swiftmailer/swiftmailer" />
+      <path value="$PROJECT_DIR$/vendor/symfony/symfony" />
+      <path value="$PROJECT_DIR$/vendor/symfony/polyfill-apcu" />
+      <path value="$PROJECT_DIR$/vendor/symfony/polyfill-php56" />
+      <path value="$PROJECT_DIR$/vendor/friendsofsymfony/user-bundle" />
+      <path value="$PROJECT_DIR$/vendor/ocramius/package-versions" />
+      <path value="$PROJECT_DIR$/vendor/symfony/polyfill-ctype" />
+      <path value="$PROJECT_DIR$/vendor/doctrine/persistence" />
+      <path value="$PROJECT_DIR$/vendor/doctrine/reflection" />
+      <path value="$PROJECT_DIR$/vendor/doctrine/event-manager" />
+      <path value="$PROJECT_DIR$/vendor/symfony/service-contracts" />
+      <path value="$PROJECT_DIR$/vendor/symfony/polyfill-intl-idn" />
+      <path value="$PROJECT_DIR$/vendor/symfony/polyfill-php72" />
+      <path value="$PROJECT_DIR$/vendor/symfony/polyfill-php73" />
+      <path value="$PROJECT_DIR$/vendor/symfony/mime" />
+      <path value="$PROJECT_DIR$/vendor/symfony/http-client-contracts" />
+      <path value="$PROJECT_DIR$/vendor/symfony/http-client" />
+    </include_path>
+  </component>
+  <component name="ProjectId" id="1XXBIQDcLKV0I4ypOJZNp3WgJkT" />
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/web/js" />
+    <property name="list.type.of.created.stylesheet" value="CSS" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="php.override.implement.member.chooser.php.doc" value="NONE" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\xampp\htdocs\forum\web\css" />
+      <recent name="C:\xampp\htdocs\forum\app\Resources" />
+      <recent name="C:\xampp\htdocs\forum\app\Resources\views" />
+      <recent name="C:\xampp\htdocs\forum\src\acem\ThreadBundle\Resources\views" />
+      <recent name="C:\xampp\htdocs\forum\src\acem\ThreadBundle\Repository" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\xampp\htdocs\forum\web\js" />
+      <recent name="C:\xampp\htdocs\forum\src\acem\ThreadBundle\Resources\views\FOSUserBundle\views" />
+      <recent name="C:\xampp\htdocs\forum\src\AppBundle\Entity" />
+      <recent name="C:\xampp\htdocs\forum\src\AppBundle\Resources\views" />
+      <recent name="C:\xampp\htdocs\forum\src\AppBundle\Resources\css" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="a39023f3-22f4-4d8b-b70a-a1864ad0d4ab" name="Default Changelist" comment="" />
+      <created>1581182478452</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1581182478452</updated>
+      <workItem from="1581182479715" duration="1214000" />
+      <workItem from="1581247854820" duration="1705000" />
+      <workItem from="1581323804938" duration="2835000" />
+      <workItem from="1581523213496" duration="1744000" />
+      <workItem from="1581525038282" duration="126000" />
+      <workItem from="1581525278526" duration="799000" />
+      <workItem from="1581526101166" duration="1000" />
+      <workItem from="1581526148352" duration="5771000" />
+      <workItem from="1581863287500" duration="7091000" />
+      <workItem from="1581885338344" duration="651000" />
+      <workItem from="1581936260103" duration="2130000" />
+      <workItem from="1581943504089" duration="5331000" />
+      <workItem from="1581960524088" duration="5902000" />
+      <workItem from="1582044023855" duration="3982000" />
+      <workItem from="1582219170067" duration="7000" />
+      <workItem from="1582306983669" duration="3235000" />
+      <workItem from="1582825538101" duration="756000" />
+      <workItem from="1582885699363" duration="2685000" />
+      <workItem from="1582910415332" duration="3134000" />
+      <workItem from="1583151859623" duration="15000" />
+      <workItem from="1583403466957" duration="209000" />
+      <workItem from="1583835286450" duration="5913000" />
+      <workItem from="1583922675583" duration="10529000" />
+      <workItem from="1584531404451" duration="2966000" />
+      <workItem from="1585946099906" duration="1301000" />
+      <workItem from="1586018702971" duration="5287000" />
+      <workItem from="1586089235650" duration="8671000" />
+      <workItem from="1586176512492" duration="6387000" />
+      <workItem from="1586262415206" duration="15798000" />
+      <workItem from="1586339461942" duration="13724000" />
+      <workItem from="1586433160789" duration="14895000" />
+      <workItem from="1586604906846" duration="12874000" />
+      <workItem from="1586703478237" duration="6132000" />
+      <workItem from="1586778100659" duration="11088000" />
+      <workItem from="1586809141781" duration="3710000" />
+      <workItem from="1586868439273" duration="9972000" />
+      <workItem from="1586973226059" duration="7301000" />
+      <workItem from="1587034402687" duration="4555000" />
+      <workItem from="1589577422869" duration="336000" />
+      <workItem from="1589635619479" duration="1761000" />
+      <workItem from="1589665090890" duration="1899000" />
+      <workItem from="1589711547261" duration="393000" />
+      <workItem from="1589895235278" duration="1681000" />
+      <workItem from="1590691718260" duration="5000" />
+      <workItem from="1590828426088" duration="1488000" />
+      <workItem from="1593197456719" duration="1167000" />
+      <workItem from="1593208084010" duration="38000" />
+      <workItem from="1593236653164" duration="4418000" />
+      <workItem from="1593246823632" duration="625000" />
+      <workItem from="1593992971450" duration="36000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+</project>

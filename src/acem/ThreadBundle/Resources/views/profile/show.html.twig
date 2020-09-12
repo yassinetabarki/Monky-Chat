@@ -1,0 +1,34 @@
+{% extends "@acemThread/base.html.twig" %}
+    {% block content %}
+    <div class="container">
+        <div class="row">
+            <div class="col-md-8 col-md-offset-2">
+                <div class="page-header">
+                    <h1>
+                        {{owner.username}}<small class="text-info"> {{owner.lastLogin|date("F jS \\a\\t g:ia")}}</small>
+                        <small>Last login</small>
+                    </h1>
+                </div>
+                {% for thread in threads %}
+                    <h5 class="flex">
+                        This Thread created  <span class="text-info">{{thread.createdAt|date("F jS \\a\\t g:ia")}}</span>
+                    </h5>
+                    <div class="panel panel-default">
+                        <div class="panel-heading">
+                            <div class="level">
+                                <h4 class="flex">
+                                    <a href="{{ thread.path }}"><h4>{{thread.title}}</h4></a>
+                                </h4>
+                            </div>
+                        </div>
+                        <div class="panel-body">
+                            <div class="body">{{thread.body}}</div>
+                        </div>
+                    </div>
+                {% endfor %}
+
+
+            </div>
+        </div>
+    </div>
+    {% endblock %}

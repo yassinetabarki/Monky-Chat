@@ -1,0 +1,26 @@
+{% extends "@acemThread/base.html.twig" %}
+{% block content %}
+<div class="container">
+    <div class="row ">
+        <div class="col-md-8 col-md-offset-2 m-3">
+            {% for thread in threads %}
+            <div class="panel panel-default">
+                <div class="panel-heading">
+                    <div class="level">
+                        <h4 class="flex">
+                            <a href="{{ thread.path }}"><h4>{{thread.title}}</h4></a>
+                        </h4>
+                        <a href="{{thread.path}}">{{thread.replies.count}} replies</a>
+                    </div>
+                </div>
+                <div class="panel-body">
+                    <div class="body">{{thread.body|length >200 ? thread.body|slice(0,200)    : thread.body}}</div>
+                </div>
+            </div>
+                {% else %}
+                    <p>There is not record available at the time being..</p>
+            {% endfor %}
+        </div>
+    </div>
+</div>
+{% endblock %}

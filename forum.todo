@@ -1,0 +1,19 @@
+Forum:
+  Part_1(login/register):
+   ✔ Login forum template @done (20-04-04 17:54)
+   ✔ registration forum  template @done (20-04-04 17:54)
+  Part_2(Threads managment):
+    ✔ Create new thread (per user) @done (20-04-06 19:25)
+    ✔  A thread must be a part of a channel @done (20-04-07 20:23)
+    ✔ Fix chreate thread @done (20-04-09 20:41)
+    ✔ Fix thread path @done (20-04-09 20:41)
+    ✔ fix the owner problem @done (20-04-11 15:10)
+    ✔ delete thread @done (20-04-16 01:15)
+    ☐ favorite thread 
+  Part_3(replies managment):
+    ✔ create a reply  @critical @done (20-04-16 01:15)
+    ✘ edit a reply @cancelled (20-04-13 16:36)
+    ✘ delete a reply @cancelled (20-04-16 01:15)
+    ☐ reply counter
+Wpf:
+  

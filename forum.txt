@@ -1,0 +1,23 @@
+#Forum
+
+1. Thread
+2. Reply
+3. User
+
+A. Thread is creates by a user 
+B. A reply belgons to a thread , and belongs to a user
+
+---------------1-------------------
+-create model thread
+-add id,text(body),string(title)
+-migrate
+-create model reply
+add id,thread_id,text(body),string(title)
+
+------------2----------------------
+php test env 
+
+feature test  out side end (browser)
+
+unit test (integration) 
+

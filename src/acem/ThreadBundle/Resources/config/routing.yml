@@ -1,0 +1,25 @@
+acem_Thread_homepage:
+    path:     /
+    defaults: { _controller: acemThreadBundle:Thread:index}
+acem_Thread_threads:
+    path:     /threads
+    defaults: { _controller: acemThreadBundle:Thread:index}
+acem_Thread_thread:
+    path:     /threads/{channel}
+    defaults: { _controller: acemThreadBundle:Thread:list }
+
+acem_Thread_create:
+    path:     /thread/create
+    defaults: { _controller: acemThreadBundle:Thread:store }
+
+acem_Thread_show:
+    path:     /threads/{channel}/{thread}
+    defaults: { _controller: acemThreadBundle:Thread:show }
+acem_Thread_delete:
+    path:     /threads/{channel}/{thread}/del
+    defaults: { _controller: acemThreadBundle:Thread:delete }
+    requirements:
+        _method:  DELETE
+acem_Profile_show:
+    path:     /profile/{name}
+    defaults: { _controller: acemThreadBundle:Profile:show }

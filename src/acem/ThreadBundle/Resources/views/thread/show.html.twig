@@ -1,0 +1,76 @@
+{% extends "@acemThread/base.html.twig" %}
+{% block content %}
+<div class="container-fluid">
+    <div class="row">
+        <div class="col-md-6">
+            <div class="panel panel-default">
+                <div class="panel-heading">
+                    <div class="level row">
+                           <div class="col-xs-9">
+                                <a href="/profile/{{threads.owner  }}">{{threads.owner}}</a> Posted:
+                                <a href="{{ threads.path }}">{{threads.title}}</a>
+                           </div>
+                        {% if is_granted("IS_AUTHENTICATED_REMEMBERED") %}
+                        <div class="col-xs-2">
+                            <form action="{{ threads.path }}/del" method="POST">
+                                <button type="submit" class="btn btn-link alert-danger" value="DELETE">Delete Thread</button>
+                            </form>
+                        </div>
+                        {% endif %}
+                    </div>
+
+                </div>
+                <div class="panel-body">
+                    <article>
+                        <div class="body">{{threads.body}}</div>
+                    </article>
+                    <hr>
+                </div>
+            </div>
+            {% for reply in threads.replies %}
+                <div class="panel panel-default">
+                    <div class="panel-heading">
+                        <div class="level">
+                            <h5 class="flex">
+                                <a href="/profile/{{reply.owner.username}}">
+                                    {{reply.owner.username}}
+                                </a> said  <span class="text-info">{{reply.createdAt|date("F jS \\a\\t g:ia")}}</span>
+                            </h5>
+                        </div>
+                    </div>
+
+                    <div class="panel-body">
+                        <article>
+                            <div class="body">{{reply.body}}</div>
+                        </article>
+                        <hr>
+                    </div>
+                </div>
+            {% endfor %}
+
+
+
+            {% if is_granted("IS_AUTHENTICATED_REMEMBERED") %}
+
+                {{ form_start(rep)}}
+                {{ form_widget(rep) }}
+                {{ form_end(rep) }}
+            {% else %}
+            <p class="text-center">
+                Please <a href="/login"> sign in</a>
+                to paticiptate in the discussion</p>
+            {% endif %}
+        </div>
+        <div class="col-md-5">
+            <div class="panel panel-default">
+                <div class="panel-body">
+                    <p>
+                        This thread was create at <span class="text-info">{{ threads.createdAt|date("F jS \\a\\t  g:ia") }}</span>
+                        by <a href="#">{{threads.owner}}</a> and has
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+{% endblock %}

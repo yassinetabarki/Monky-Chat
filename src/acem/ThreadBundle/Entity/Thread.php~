@@ -1,0 +1,187 @@
+<?php
+
+namespace acem\ThreadBundle\Entity;
+
+use Doctrine\Common\Collections\ArrayCollection;
+use Doctrine\ORM\Mapping as ORM;
+
+/**
+ * thread
+ *
+ * @ORM\Table(name="threads")
+ * @ORM\Entity(repositoryClass="acem\ThreadBundle\Repository\ThreadRepository")
+ */
+class Thread
+{
+    /**
+     * @return mixed
+     */
+    public function getUserId()
+    {
+        return $this->user_id;
+    }
+
+    /**
+     * @param mixed $user_id
+     */
+    public function setUserId($user_id)
+    {
+        $this->user_id = $user_id;
+    }
+    /**
+     * @var int
+     *
+     * @ORM\Column(name="id", type="integer")
+     * @ORM\Id
+     * @ORM\GeneratedValue(strategy="AUTO")
+     */
+    private $id;
+    /**
+     * @ORM\Column(type="integer")
+     */
+    private $user_id;
+
+    /**
+     * @ORM\Column(type="integer")
+     * @ORM\ManyToOne(targetEntity="Channels", inversedBy="threads")
+     * @ORM\JoinColumn(name="channel_id", referencedColumnName="id")
+     */
+    public $channel;
+
+    /**
+     * @ORM\OneToMany(targetEntity="Reply", mappedBy="threads")
+     */
+    private $replies;
+
+    public function __construct()
+    {
+        $this->replies = new ArrayCollection();
+    }
+
+    /**
+     * @return mixed
+     */
+    public function getChannel()
+    {
+        return $this->channel;
+    }
+
+    /**
+     * @param mixed $channel
+     */
+    public function setChannel($channel)
+    {
+        $this->channel = $channel;
+    }
+
+
+
+    /**
+     * @var string
+     *
+     * @ORM\Column(name="title", type="string", length=255)
+     */
+    private $title;
+
+    /**
+     * @var string
+     *
+     * @ORM\Column(name="body", type="string", length=255)
+     */
+    private $body;
+
+
+    /**
+     * Get id
+     *
+     * @return int
+     */
+    public function getId()
+    {
+        return $this->id;
+    }
+
+    /**
+     * Set title
+     *
+     * @param string $title
+     *
+     * @return Thread
+     */
+    public function setTitle($title)
+    {
+        $this->title = $title;
+
+        return $this;
+    }
+
+    /**
+     * Get title
+     *
+     * @return string
+     */
+    public function getTitle()
+    {
+        return $this->title;
+    }
+
+    /**
+     * Set body
+     *
+     * @param string $body
+     *
+     * @return Thread
+     */
+    public function setBody($body)
+    {
+        $this->body = $body;
+
+        return $this;
+    }
+
+    /**
+     * Get body
+     *
+     * @return string
+     */
+    public function getBody()
+    {
+        return $this->body;
+    }
+
+//    /**
+//     * Add reply.
+//     *
+//     * @param \acem\ThreadBundle\Entity\Reply $reply
+//     *
+//     * @return Thread
+//     */
+//    public function addReply(\acem\ThreadBundle\Entity\Reply $reply)
+//    {
+//        $this->replies[] = $reply;
+//
+//        return $this;
+//    }
+//
+//    /**
+//     * Remove reply.
+//     *
+//     * @param \acem\ThreadBundle\Entity\Reply $reply
+//     *
+//     * @return boolean TRUE if this collection contained the specified element, FALSE otherwise.
+//     */
+//    public function removeReply(\acem\ThreadBundle\Entity\Reply $reply)
+//    {
+//        return $this->replies->removeElement($reply);
+//    }
+//
+//    /**
+//     * Get replies.
+//     *
+//     * @return \Doctrine\Common\Collections\Collection
+//     */
+//    public function getReplies()
+//    {
+//        return $this->replies;
+//    }
+}
